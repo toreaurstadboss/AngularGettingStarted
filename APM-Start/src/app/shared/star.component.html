@@ -1,11 +1,12 @@
 <div class="crop"
+     (click)="onClick()"
      [style.width.px]="starWidth"
      [title]="rating">
   <div style="width: 75px">
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
+    <span><fa-icon [icon]="['far', 'star']"></fa-icon></span>
+    <span><fa-icon [icon]="['far', 'star']"></fa-icon></span>
+    <span><fa-icon [icon]="['far', 'star']"></fa-icon></span>
+    <span><fa-icon [icon]="['far', 'star']"></fa-icon></span>
+    <span><fa-icon [icon]="['far', 'star']"></fa-icon></span>
   </div>
 </div>
