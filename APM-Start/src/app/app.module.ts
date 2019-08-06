@@ -19,7 +19,7 @@ registerLocaleData(localeNor, 'no', localeNorExtra);
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'no'}
-  ]
+  ],
   imports: [
     BrowserModule,
     FormsModule,
