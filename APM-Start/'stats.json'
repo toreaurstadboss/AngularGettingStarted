@@ -1,0 +1,926 @@
+Installing 'webpack-cli' (running 'npm install -D webpack-cli')...
+
+> node-sass@4.9.3 install c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/win32-x64-72_binding.node
+
+> node-sass@4.9.3 postinstall c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files (x86)\nodejs\node.exe c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 07.08.2019 16:07:17.
+Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|x64".
+Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" (1) is building "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (2) on node 1 (default targets).
+Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (2) is building "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Release\obj\libsass\".
+  Creating directory "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\Release\".
+  Creating directory "Release\obj\libsass\libsass.tlog\".
+InitializeBuildStatus:
+  Creating "Release\obj\libsass\libsass.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /I"C:\Users\toaurs-he\.node-gyp\12.4.0\include\node" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\src" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\config" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\openssl\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\uv\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\zlib" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\v8\include" /I..\..\src\libsass\include /Z7 /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /Oy /D NODE_GYP_MODULE_NAME=libsass /D USING_UV_SHARED=1 /D USING_V8_SHARED=1 /D V8_DEPRECATION_WARNINGS=1 /D V8_DEPRECATION_WARNINGS /D V8_IMMINENT_DEPRECATION_WARNINGS /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D OPENSSL_THREADS /D "LIBSASS_VERSION=\"3.5.4\"" /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"Release\obj\libsass\\" /Fd"Release\obj\libsass\libsass.pdb" /Gd /TP /wd4351 /wd4355 /wd4800 /wd4251 /wd4275 /wd4244 /wd4267 /errorReport:queue /GR /EHsc ..\..\src\libsass\src\ast.cpp ..\..\src\libsass\src\ast_fwd_decl.cpp ..\..\src\libsass\src\backtrace.cpp ..\..\src\libsass\src\base64vlq.cpp ..\..\src\libsass\src\bind.cpp ..\..\src\libsass\src\check_nesting.cpp ..\..\src\libsass\src\color_maps.cpp ..\..\src\libsass\src\constants.cpp ..\..\src\libsass\src\context.cpp ..\..\src\libsass\src\cssize.cpp ..\..\src\libsass\src\emitter.cpp ..\..\src\libsass\src\environment.cpp ..\..\src\libsass\src\error_handling.cpp ..\..\src\libsass\src\eval.cpp ..\..\src\libsass\src\expand.cpp ..\..\src\libsass\src\extend.cpp ..\..\src\libsass\src\file.cpp ..\..\src\libsass\src\functions.cpp ..\..\src\libsass\src\inspect.cpp ..\..\src\libsass\src\json.cpp ..\..\src\libsass\src\lexer.cpp ..\..\src\libsass\src\listize.cpp ..\..\src\libsass\src\memory\SharedPtr.cpp ..\..\src\libsass\src\node.cpp ..\..\src\libsass\src\operators.cpp ..\..\src\libsass\src\output.cpp ..\..\src\libsass\src\parser.cpp ..\..\src\libsass\src\plugins.cpp ..\..\src\libsass\src\position.cpp ..\..\src\libsass\src\prelexer.cpp ..\..\src\libsass\src\remove_placeholders.cpp ..\..\src\libsass\src\sass.cpp ..\..\src\libsass\src\sass2scss.cpp ..\..\src\libsass\src\sass_context.cpp ..\..\src\libsass\src\sass_functions.cpp ..\..\src\libsass\src\sass_util.cpp ..\..\src\libsass\src\sass_values.cpp ..\..\src\libsass\src\source_map.cpp ..\..\src\libsass\src\subset_map.cpp ..\..\src\libsass\src\to_c.cpp ..\..\src\libsass\src\to_value.cpp ..\..\src\libsass\src\units.cpp ..\..\src\libsass\src\utf8_string.cpp ..\..\src\libsass\src\util.cpp ..\..\src\libsass\src\values.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ast.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ast_fwd_decl.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  backtrace.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  base64vlq.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  bind.cpp
+  check_nesting.cpp
+  color_maps.cpp
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  constants.cpp
+  context.cpp
+  cssize.cpp
+  emitter.cpp
+  environment.cpp
+  error_handling.cpp
+  eval.cpp
+  expand.cpp
+  extend.cpp
+  file.cpp
+  functions.cpp
+  inspect.cpp
+  json.cpp
+..\..\src\libsass\src\json.cpp(26): warning C4005: '_CRT_NONSTDC_NO_DEPRECATE': macro redefinition [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ..\..\src\libsass\src\json.cpp(26): note: command-line arguments:  see previous definition of '_CRT_NONSTDC_NO_DEPRECATE'
+  lexer.cpp
+  listize.cpp
+  SharedPtr.cpp
+  node.cpp
+  operators.cpp
+  output.cpp
+  parser.cpp
+  plugins.cpp
+  position.cpp
+  prelexer.cpp
+  remove_placeholders.cpp
+  sass.cpp
+  sass2scss.cpp
+..\..\src\libsass\src\sass2scss.cpp(9): warning C4005: '_CRT_NONSTDC_NO_DEPRECATE': macro redefinition [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ..\..\src\libsass\src\sass2scss.cpp(9): note: command-line arguments:  see previous definition of '_CRT_NONSTDC_NO_DEPRECATE'
+  sass_context.cpp
+  sass_functions.cpp
+  sass_util.cpp
+  sass_values.cpp
+  source_map.cpp
+  subset_map.cpp
+  to_c.cpp
+  to_value.cpp
+  units.cpp
+  utf8_string.cpp
+  util.cpp
+  values.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /I"C:\Users\toaurs-he\.node-gyp\12.4.0\include\node" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\src" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\config" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\openssl\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\uv\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\zlib" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\v8\include" /I..\..\src\libsass\include /Z7 /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /Oy /D NODE_GYP_MODULE_NAME=libsass /D USING_UV_SHARED=1 /D USING_V8_SHARED=1 /D V8_DEPRECATION_WARNINGS=1 /D V8_DEPRECATION_WARNINGS /D V8_IMMINENT_DEPRECATION_WARNINGS /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D OPENSSL_THREADS /D "LIBSASS_VERSION=\"3.5.4\"" /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"Release\obj\libsass\\" /Fd"Release\obj\libsass\libsass.pdb" /Gd /TC /wd4351 /wd4355 /wd4800 /wd4251 /wd4275 /wd4244 /wd4267 /errorReport:queue /GR /EHsc ..\..\src\libsass\src\cencode.c
+cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cencode.c
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\Lib.exe /OUT:"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\Release\libsass.lib" /NOLOGO /MACHINE:X64 Release\obj\libsass\ast.obj
+  Release\obj\libsass\ast_fwd_decl.obj
+  Release\obj\libsass\backtrace.obj
+  Release\obj\libsass\base64vlq.obj
+  Release\obj\libsass\bind.obj
+  Release\obj\libsass\cencode.obj
+  Release\obj\libsass\check_nesting.obj
+  Release\obj\libsass\color_maps.obj
+  Release\obj\libsass\constants.obj
+  Release\obj\libsass\context.obj
+  Release\obj\libsass\cssize.obj
+  Release\obj\libsass\emitter.obj
+  Release\obj\libsass\environment.obj
+  Release\obj\libsass\error_handling.obj
+  Release\obj\libsass\eval.obj
+  Release\obj\libsass\expand.obj
+  Release\obj\libsass\extend.obj
+  Release\obj\libsass\file.obj
+  Release\obj\libsass\functions.obj
+  Release\obj\libsass\inspect.obj
+  Release\obj\libsass\json.obj
+  Release\obj\libsass\lexer.obj
+  Release\obj\libsass\listize.obj
+  Release\obj\libsass\SharedPtr.obj
+  Release\obj\libsass\node.obj
+  Release\obj\libsass\operators.obj
+  Release\obj\libsass\output.obj
+  Release\obj\libsass\parser.obj
+  Release\obj\libsass\plugins.obj
+  Release\obj\libsass\position.obj
+  Release\obj\libsass\prelexer.obj
+  Release\obj\libsass\remove_placeholders.obj
+  Release\obj\libsass\sass.obj
+  Release\obj\libsass\sass2scss.obj
+  Release\obj\libsass\sass_context.obj
+  Release\obj\libsass\sass_functions.obj
+  Release\obj\libsass\sass_util.obj
+  Release\obj\libsass\sass_values.obj
+  Release\obj\libsass\source_map.obj
+  Release\obj\libsass\subset_map.obj
+  Release\obj\libsass\to_c.obj
+  Release\obj\libsass\to_value.obj
+  Release\obj\libsass\units.obj
+  Release\obj\libsass\utf8_string.obj
+  Release\obj\libsass\util.obj
+  Release\obj\libsass\values.obj
+  libsass.vcxproj -> c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\Release\\libsass.lib
+FinalizeBuildStatus:
+  Deleting file "Release\obj\libsass\libsass.tlog\unsuccessfulbuild".
+  Touching "Release\obj\libsass\libsass.tlog\libsass.lastbuildstate".
+Done Building Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj" (default targets).
+Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (2) is building "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj" (4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Release\obj\binding\".
+  Creating directory "Release\obj\binding\binding.tlog\".
+InitializeBuildStatus:
+  Creating "Release\obj\binding\binding.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /I"C:\Users\toaurs-he\.node-gyp\12.4.0\include\node" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\src" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\config" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\openssl\openssl\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\uv\include" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\zlib" /I"C:\Users\toaurs-he\.node-gyp\12.4.0\deps\v8\include" /I..\..\nan /I..\src\libsass\include /Z7 /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /Oy /D NODE_GYP_MODULE_NAME=binding /D USING_UV_SHARED=1 /D USING_V8_SHARED=1 /D V8_DEPRECATION_WARNINGS=1 /D V8_DEPRECATION_WARNINGS /D V8_IMMINENT_DEPRECATION_WARNINGS /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D OPENSSL_THREADS /D BUILDING_NODE_EXTENSION /D _WINDLL /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"Release\obj\binding\\" /Fd"Release\obj\binding\vc140.pdb" /Gd /TP /wd4351 /wd4355 /wd4800 /wd4251 /wd4275 /wd4244 /wd4267 /errorReport:queue /Zc:threadSafeInit- ..\src\binding.cpp ..\src\create_string.cpp ..\src\custom_function_bridge.cpp ..\src\custom_importer_bridge.cpp ..\src\sass_context_wrapper.cpp ..\src\sass_types\boolean.cpp ..\src\sass_types\color.cpp ..\src\sass_types\error.cpp ..\src\sass_types\factory.cpp ..\src\sass_types\list.cpp ..\src\sass_types\map.cpp ..\src\sass_types\null.cpp ..\src\sass_types\number.cpp ..\src\sass_types\string.cpp "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-gyp\src\win_delay_load_hook.cc"
+  binding.cpp
+  create_string.cpp
+  custom_function_bridge.cpp
+  custom_importer_bridge.cpp
+  sass_context_wrapper.cpp
+  boolean.cpp
+  color.cpp
+  error.cpp
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\custom_importer_bridge.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\custom_importer_bridge.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\binding.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+  
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\custom_importer_bridge.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\binding.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\custom_function_bridge.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\boolean.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\binding.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\error.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\boolean.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\create_string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\error.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\create_string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\boolean.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\error.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\create_string.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\custom_importer_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\color.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_importer_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\error.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\binding.cpp)
+  
+  
+  
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_importer_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\color.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\boolean.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\create_string.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\color.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\error.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\color.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_importer_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\error.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\boolean.cpp)
+  
+  
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\error.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\create_string.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_function_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)
+  
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\binding.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\create_string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_function_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\error.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_context_wrapper.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\binding.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\create_string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)
+  
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\error.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\custom_function_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\create_string.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\create_string.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\color.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\create_string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_importer_bridge.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_context_wrapper.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+  
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\binding.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\color.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\error.cpp)
+  
+  
+  
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\binding.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\error.cpp)
+  
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_function_bridge.cpp)
+  
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\create_string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\boolean.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\create_string.cpp)
+  
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\boolean.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\color.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\create_string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)
+  
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\custom_importer_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\boolean.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_context_wrapper.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\color.cpp)
+  
+  
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\boolean.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_importer_bridge.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\custom_importer_bridge.cpp)
+  
+  
+..\src\create_string.cpp(17): error C2664: 'v8::String::Utf8Value::Utf8Value(const v8::String::Utf8Value &)': cannot convert argument 1 from 'v8::Local<v8::Value>' to 'const v8::String::Utf8Value &'c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_context_wrapper.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  ..\src\create_string.cpp(17): note: Reason: cannot convert from 'v8::Local<v8::Value>' to 'const v8::String::Utf8Value'
+  
+  ..\src\create_string.cpp(17): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_context_wrapper.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\color.cpp)
+  
+  factory.cpp
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\color.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\color.cpp)
+  list.cpp
+  map.cpp
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_context_wrapper.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_context_wrapper.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_context_wrapper.cpp)null.cpp
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\color.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_context_wrapper.cpp)
+  
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\color.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\color.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\color.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\color.cpp)
+  number.cpp
+  string.cpp
+  win_delay_load_hook.cc
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\null.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\factory.cpp)
+  
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\factory.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\list.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\list.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\factory.cpp)
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\factory.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\list.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\map.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\null.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\factory.cpp)
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\map.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\factory.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\factory.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\factory.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\list.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\factory.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\factory.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\list.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\factory.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\list.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\list.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\null.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\map.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\list.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\factory.cpp)
+  
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\factory.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\factory.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\factory.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\factory.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\number.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\list.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\list.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\list.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\null.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2525): note: see declaration of 'v8::Value::ToBoolean' (compiling source file ..\src\sass_types\number.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\list.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\string.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\list.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\null.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\map.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\null.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\null.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\null.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\map.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2563): note: see declaration of 'v8::Value::BooleanValue' (compiling source file ..\src\sass_types\number.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\string.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\map.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): note: No constructor could take the source type, or constructor overload resolution was ambiguous (compiling source file ..\src\sass_types\number.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\null.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\map.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\null.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\map.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\null.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\null.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\map.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\null.cpp)
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\number.cpp)
+  
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\map.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(2544): note: see declaration of 'v8::Value::ToString' (compiling source file ..\src\sass_types\number.cpp)
+  
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\map.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\number.cpp)
+  
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\string.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\number.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\map.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\map.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\map.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\number.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\number.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\number.cpp)
+  
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\string.cpp)
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\number.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\number.cpp)
+c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\number.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\number.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\number.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\number.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\number.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\string.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(563): note: see declaration of 'v8::PersistentBase<v8::Object>::MarkIndependent' (compiling source file ..\src\sass_types\string.cpp)
+c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\string.cpp)
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ] (compiling source file ..\src\sass_types\string.cpp)
+Done Building Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj" (default targets) -- FAILED.
+Done Building Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (default targets) -- FAILED.
+Done Building Project "c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" (default targets) -- FAILED.
+
+Build FAILED.
+
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" (default target) (1) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (default target) (2) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj" (default target) (3) ->
+(ClCompile target) -> 
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ..\..\src\libsass\src\json.cpp(26): warning C4005: '_CRT_NONSTDC_NO_DEPRECATE': macro redefinition [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  ..\..\src\libsass\src\sass2scss.cpp(9): warning C4005: '_CRT_NONSTDC_NO_DEPRECATE': macro redefinition [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+  cl : Command line warning D9025: overriding '/GR-' with '/GR' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\src\libsass.vcxproj]
+
+
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" (default target) (1) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (default target) (2) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj" (default target) (4) ->
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\binding.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\binding.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\binding.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\error.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\binding.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\custom_importer_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_context_wrapper.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\factory.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(22): warning C4996: 'v8::Value::ToBoolean': was declared deprecated (compiling source file ..\src\sass_types\number.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\null.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_converters_43_inl.h(40): warning C4996: 'v8::Value::BooleanValue': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\map.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\map.cpp)c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1064): warning C4996: 'v8::Value::ToString': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3416): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_types\map.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1896): note: see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1861): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1867): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1873): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1879): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1884): warning C4996: 'v8::Object::Get': was declared deprecated (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(67): warning C4996: 'v8::PersistentBase<v8::Object>::MarkIndependent': was declared deprecated (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+
+
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.sln" (default target) (1) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj.metaproj" (default target) (2) ->
+"c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj" (default target) (4) ->
+(ClCompile target) -> 
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\custom_function_bridge.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\binding.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\error.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\create_string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\color.cpp)c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\nan\nan.h(1855): warning C4996: 'v8::Object::Set': was declared deprecated (compiling source file ..\src\create_string.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\custom_function_bridge.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\error.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3359): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\boolean.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  ..\src\create_string.cpp(17): error C2664: 'v8::String::Utf8Value::Utf8Value(const v8::String::Utf8Value &)': cannot convert argument 1 from 'v8::Local<v8::Value>' to 'const v8::String::Utf8Value &'c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3412): note: see declaration of 'v8::Object::Get' (compiling source file ..\src\sass_context_wrapper.cpp)c:\users\toaurs-he\.node-gyp\12.4.0\include\node\v8.h(3368): note: see declaration of 'v8::Object::Set' (compiling source file ..\src\sass_types\color.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\list.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\null.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\string.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_implementation_12_inl.h(105): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' (compiling source file ..\src\sass_types\number.cpp) [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(24): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+  c:\angularcourses\angular-gettingstarted\apm-start\node_modules\nan\nan_object_wrap.h(124): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [c:\AngularCourses\Angular-GettingStarted\APM-Start\node_modules\node-sass\build\binding.vcxproj]
+
+    92 Warning(s)
+    28 Error(s)
+
+Time Elapsed 00:01:00.93
++ webpack-cli@3.3.6
+added 45 packages from 31 contributors, removed 17 packages and audited 40187 packages in 93.921s
+found 621 vulnerabilities (2 low, 4 moderate, 615 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+{
+  "errors": [
+    "Entry module not found: Error: Can't resolve './src' in 'c:\\AngularCourses\\Angular-GettingStarted\\APM-Start'\nresolve './src' in 'c:\\AngularCourses\\Angular-GettingStarted\\APM-Start'\n  using description file: c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\package.json (relative path: ./src)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src is not a file\n      .wasm\n        Field 'browser' doesn't contain a valid alias configuration\n        c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src.wasm doesn't exist\n      .mjs\n        Field 'browser' doesn't contain a valid alias configuration\n        c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src.mjs doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src.js doesn't exist\n      .json\n        Field 'browser' doesn't contain a valid alias configuration\n        c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src.json doesn't exist\n      as directory\n        existing directory\n          using path: c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index\n            using description file: c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\package.json (relative path: ./src/index)\n              no extension\n                Field 'browser' doesn't contain a valid alias configuration\n                c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index doesn't exist\n              .wasm\n                Field 'browser' doesn't contain a valid alias configuration\n                c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index.wasm doesn't exist\n              .mjs\n                Field 'browser' doesn't contain a valid alias configuration\n                c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index.mjs doesn't exist\n              .js\n                Field 'browser' doesn't contain a valid alias configuration\n                c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index.js doesn't exist\n              .json\n                Field 'browser' doesn't contain a valid alias configuration\n                c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\src\\index.json doesn't exist"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
+  ],
+  "version": "4.19.1",
+  "hash": "5854596f6351e36c5803",
+  "time": 114,
+  "builtAt": 1565186906147,
+  "publicPath": "",
+  "outputPath": "c:\\AngularCourses\\Angular-GettingStarted\\APM-Start\\dist",
+  "assetsByChunkName": {},
+  "assets": [],
+  "filteredAssets": 0,
+  "entrypoints": {},
+  "namedChunkGroups": {},
+  "chunks": [],
+  "modules": [],
+  "filteredModules": 0,
+  "children": []
+}

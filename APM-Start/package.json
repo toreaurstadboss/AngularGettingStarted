@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
+    "build:stats": "ng build --prod --stats-json",
+    "bundle-report": "webpack-bundle-analyzer dist/APM/stats.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -51,6 +53,8 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.6"
   }
 }
