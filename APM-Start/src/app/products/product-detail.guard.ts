@@ -3,9 +3,13 @@ import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angul
 import { Observable } from 'rxjs';
 import { Promise } from "@types/q";
 import { Router } from "@angular/router";
+import { Pipe } from "@angular/core";
 
 @Injectable({
   providedIn: 'root'
+})
+@Pipe({
+  name: 'ProductDetailGuard'
 })
 export class ProductDetailGuard implements CanActivate {
 
