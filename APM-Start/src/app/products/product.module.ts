@@ -4,14 +4,8 @@ import { ProductListComponent } from "src/app/products/product-list.component";
 import { ProductDetailComponent } from "src/app/products/product-detail.component";
 import { ProductDetailGuard } from "src/app/products/product-detail.guard";
 import { ConvertToSpacesPipe } from "src/app/shared/convert-to-spaces.pipe";
-import { StarComponent } from "src/app/shared/star.component";
 import { RouterModule } from "@angular/router";
-import { FormsModule } from "@angular/forms";
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -19,22 +13,18 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProductDetailComponent,
     ProductDetailGuard,
     ConvertToSpacesPipe,
-    StarComponent,
-
   ],
   imports: [
-    CommonModule,
-    FormsModule,
-    FontAwesomeModule,
     RouterModule.forChild([
       { path: 'products', component: ProductListComponent },
       { path: 'products/:id', component: ProductDetailComponent, canActivate: [ProductDetailGuard] }
-    ])
+    ]),
+    SharedModule
   ]})
 export class ProductModule {
 
   constructor(){
-    library.add(fab, far, fas);
+
   }
 
 
