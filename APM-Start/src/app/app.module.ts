@@ -17,6 +17,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { ProductDetailComponent } from './products/product-detail.component';
 
 registerLocaleData(localeNor, 'no', localeNorExtra);
 
@@ -25,7 +26,9 @@ registerLocaleData(localeNor, 'no', localeNorExtra);
     AppComponent,
     ProductListComponent,
     ConvertToSpacesPipe,
-    StarComponent
+    StarComponent,
+    ProductDetailComponent,
+    WelcomeComponent
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'no'}
@@ -36,7 +39,11 @@ registerLocaleData(localeNor, 'no', localeNorExtra);
     HttpClientModule,
     CommonModule,
     RouterModule.forRoot([
-      { path: '', component: AppComponent }
+      { path: 'products', component: ProductListComponent },
+      { path: 'products/:id', component: ProductDetailComponent },
+      { path: 'welcome', component: WelcomeComponent },
+      { path: '', redirectTo: 'welcome', pathMatch: 'full',
+      { path: '**',  redirectTo:'welcome', pathMatch: 'full' }
     ]),
     FontAwesomeModule
   ],
