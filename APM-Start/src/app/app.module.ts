@@ -6,6 +6,7 @@ import localeNorExtra from '@angular/common/locales/nb';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { ProductListComponent } from "src/app/products/product-list.component";
 import { WelcomeComponent } from "src/app/home/welcome.component";
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
@@ -32,6 +33,7 @@ registerLocaleData(localeNor, 'no', localeNorExtra);
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     CommonModule,
     RouterModule.forRoot([
       { path: '', component: AppComponent }
