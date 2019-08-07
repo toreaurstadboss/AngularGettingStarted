@@ -18,6 +18,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { ProductDetailComponent } from './products/product-detail.component';
+import { ProductDetailGuard } from "src/app/products/product-detail.guard";
 
 registerLocaleData(localeNor, 'no', localeNorExtra);
 
@@ -40,7 +41,7 @@ registerLocaleData(localeNor, 'no', localeNorExtra);
     CommonModule,
     RouterModule.forRoot([
       { path: 'products', component: ProductListComponent },
-      { path: 'products/:id', component: ProductDetailComponent },
+      { path: 'products/:id', component: ProductDetailComponent, canActivate: [ ProductDetailGuard ] },
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full',
       { path: '**',  redirectTo:'welcome', pathMatch: 'full' }
